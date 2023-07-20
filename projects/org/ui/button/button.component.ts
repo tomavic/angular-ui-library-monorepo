@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-button',
-  templateUrl: './button.component.html',
+  template: `Hi, I am a Button `,
   styleUrls: ['./button.component.scss']
 })
 export class ButtonComponent implements OnInit {
