@@ -1,12 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-dropdown',
-  template: `Hi, I am a Dropdown `,
-  styleUrls: ['./dropdown.component.scss'],
+  selector: 'org-dropdown',
+  template: `Hi, I am a Dropdown `
 })
-export class DropdownComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-}
+export class DropdownComponent {}
